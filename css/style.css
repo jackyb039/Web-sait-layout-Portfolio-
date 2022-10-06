@@ -88,6 +88,8 @@ header{
 }
 
 .home__lang{
+	display: block;
+	margin-right: -65px ;
 	font-family: 'Gilroy-Bold' sans-serif;
 	font-size: 16px;
 	line-height: 20px;
@@ -180,10 +182,12 @@ header{
 }
 
 .portfolio__img1{
+	width: 100%;
 	margin-bottom: 45px;
 }
 
 .portfolio__img23{
+	width: 100%;
 	margin-top: 100px;
 	margin-bottom: 45px;
 }
@@ -248,8 +252,31 @@ header{
 /*--------------------*/
 
 @media (max-width:560px)  {
-	.skills__programs,.portfolio,.contacts__social {width:90%;}
-	
+	.skills__programs,.portfolio,.contacts__social,.home__img {width:100%;}
+	.skills__programs{
+		flex-direction: column;
+		margin-bottom: 100px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.skills__programs img{
+		margin-bottom: 20px;
+		height: 50%;
+		width: 50%;
+	}
+	.skills__programs img:last-child{
+		margin-bottom: 0px;
+	}
+	.home__img{
+		margin-bottom: 100px;
+	}
+	.portfolio{
+		margin-bottom: 100px;
+	}
+	.contacts__footer{
+		padding-bottom: 50px;
+	}
 }
+
 
 
