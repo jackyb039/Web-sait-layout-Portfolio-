@@ -88,13 +88,12 @@ header{
 }
 
 .home__lang{
-	display: block;
-	margin-right: -65px ;
+	margin-top: 50px;
 	font-family: 'Gilroy-Bold' sans-serif;
 	font-size: 16px;
 	line-height: 20px;
 	color: #828282;
-	transform: rotate(-90deg);
+	
 }
 
 .home__img{
