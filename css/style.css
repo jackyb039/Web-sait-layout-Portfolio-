@@ -37,6 +37,10 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
+@media (max-width:560px)  {
+	.vc_separator.vc_sep_double {width:100%;}
+}
+
 body{
 	width: 100%;
   	max-width: 1000px;
