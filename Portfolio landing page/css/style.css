@@ -1,0 +1,248 @@
+/*--------------------*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	font-family:  'Montserrat', sans-serif;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body{
+	width: 100%;
+  	max-width: 1000px;
+  	margin: 0 auto;
+	font-weight: 1000px;
+}
+/*ШАПКА*/
+header{
+	display: flex;
+	justify-content: space-around;
+	padding: 35px 0px;
+	border-bottom: 1px solid #828282;
+}
+
+.header__nav{
+	font-family: 'Gilroy-Bold', sans-serif;
+	color: #828282;
+	font-weight: 900px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.header__menu:hover{
+	color: black;
+}
+/*--------------------*/
+
+/*HOME*/
+.main__home{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px;
+}
+
+.home__denisnovik{
+	font-family: 'Gilroy-Bold' sans-serif;
+	font-size: 47.3392px;
+	line-height: 59px;
+	font-weight: 700px;
+	color: #070707;
+}
+
+.home__designer{
+	padding-top: 50px;
+	font-family: 'Gilroy-Medium' sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+}
+
+.home__lang{
+	font-family: 'Gilroy-Bold' sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #828282;
+	transform: rotate(-90deg);
+}
+
+.home__img{
+	margin-bottom: 220px;
+}
+/*--------------------*/
+
+/*ABOUT ME*/
+.about_me{
+	text-align: center;
+}
+
+.about_me__title{
+	font-family: 'Gilroy-Bold' sans-serif;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+	margin-bottom: 20px;
+}
+
+.about_me__text{
+	font-family: 'Gilroy-Medium' sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+	font-weight: 600px;
+	margin-bottom: 200px;
+	
+}
+
+.about_me__text p{
+	margin-bottom: 50px;
+}
+/*--------------------*/
+
+/*SKILLS*/
+.skills__title{
+	font-family: 'Gilroy-Bold' sans-serif;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+	margin-bottom: 70px;	
+}
+
+.skills__text{
+	font-family: 'Gilroy-Medium' sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+	margin-bottom: 90px;
+}
+
+.skills__programs{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 220px ;
+}
+/*--------------------*/
+
+/*PORTFOLIO*/
+.portfolio{
+	margin-bottom: 210px;
+}
+
+.portfolio__title{
+	font-family: 'Gilroy-Bold' sans-serif;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+	margin-bottom: 50px;
+}
+
+.portfolio__titles{
+	font-family: 'Gilroy-Medium' sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #070707;
+}
+
+.portfolio__img1{
+	margin-bottom: 45px;
+}
+
+.portfolio__img23{
+	margin-top: 100px;
+	margin-bottom: 45px;
+}
+/*--------------------*/
+
+/*CONTACTS*/
+
+
+.contacts__title{
+	font-family: 'Gilroy-Bold' sans-serif;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+	margin-bottom: 20px;
+}
+
+.contacts__text{
+	font-family: 'Gilroy-Medium' sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+	margin-bottom: 30px;
+}
+
+.contacts__button{
+	height: 40px;
+	width: 166px;
+	background-color: black;
+	font-family: 'Gilroy-Bold' sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	border-radius: 30px;
+}
+
+.contacts__button__middle{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 90px;
+}
+
+.contacts__social{
+	display: flex;
+	justify-content: center;
+}
+
+.contacts__social a{
+	margin: 0px 30px 45px 30px;
+}
+
+.contacts__footer{
+	font-family: 'Gilroy-Medium' sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #828282;
+	padding-bottom: 120px;
+}
+/*--------------------*/
